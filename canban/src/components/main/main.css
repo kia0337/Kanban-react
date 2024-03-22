@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0079BF;
+    padding: 30px;
+    height: 80%;
+}
