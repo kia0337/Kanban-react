@@ -8,8 +8,7 @@ function Footer({ tasks }) {
       <p className='footer__task-count'>Active tasks: {tasks.filter(task => task.status === "backlog").length}</p>
       <p className='footer__task-count'>Finished tasks: {tasks.filter(task => task.status === "finished").length}</p>
       <p className='footer__kanban-credits'>Kanban board by
-        <p className='footer__kanban-author' >NAME</p> 
-        <p> YEAR</p>
+      <a className='footer__kanban-author' href="#" target='_blank' >Author, Year</a>
         </p>
     </footer>
   )
